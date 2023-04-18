@@ -2,9 +2,6 @@ package usersAndProducts;
 
 import lombok.*;
 
-import javax.swing.*;
-import java.util.ArrayList;
-
 @Getter
 @Setter
 @ToString
@@ -12,16 +9,15 @@ import java.util.ArrayList;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class ShoppingChart {
+public class ShoppingCart {
 
-    private String customerName;
     private String productName;
     private int quantity;
     private double weight;
+    private Double price;
 
-ArrayList<ShoppingChart> shoppingCharts = new ArrayList<>();
- if (shoppingCharts.isEmpty()) {
-        JOptionPane.showMessageDialog(null, "No contacts to display");
-        return 0;
+
+//ArrayList<ShoppingCart> shoppingCarts = new ArrayList<>();
+
     }
-}
+
